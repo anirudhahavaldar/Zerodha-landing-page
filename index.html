@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zerodha</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="https://zerodha.com/static/images/favicon.png" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-flex">
+          <img width="150" src="logo.png" alt="" />
+          <div class="nav-items">
+            <div>Signup</div>
+            <div>About</div>
+            <div>Products</div>
+            <div>Pricing</div>
+            <div>Support</div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <img
+        class="landing-image"
+        src="https://zerodha.com/static/images/landing.png"
+        alt=""
+      />
+      <section class="landing-heading">
+        <h1>Invest in everything</h1>
+
+        <h5>
+          Online platforms to invest in stocks, derivatives, mutual funds and
+          more
+        </h5>
+        <a href="#" class="button">Sign up now</a>
+      </section>
+
+      <section>
+        <h1 class="investment-calc">Investment Calculator</h1>
+        <div class="box">
+          <div class="input-box">
+            <label for="capital">₹ Capital</label>
+            <input type="text" id="capital" placeholder="₹ Capital" />
+            <label for="years">Years</label>
+            <input type="text" id="years" placeholder="Years" />
+            <label for="interest">Interest</label>
+            <input type="text" id="interest" placeholder="Interest" />
+            <button id="calculate">Calculate</button>
+          </div>
+          <div class="output">
+            <p class="results">Results</p>
+            <p id="answer">₹ 0</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>Copyright@Zerodha</footer>
+    <script src="script.js"></script>
+  </body>
+</html>

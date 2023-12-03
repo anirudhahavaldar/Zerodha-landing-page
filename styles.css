@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+  box-shadow: 2px 1px 2px #eee;
+  margin-bottom: 20px;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  gap: 20px;
+  padding: 25px 0;
+  color: #666;
+  font-size: 14.4px;
+}
+
+.nav-items div {
+  margin: 0 12px;
+}
+
+.landing-image {
+  max-height: 45vh;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 60px;
+}
+
+.landing-heading {
+  text-align: center;
+  color: #424242;
+}
+
+.landing-heading > h1 {
+  font-size: 2.75rem;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.landing-heading > h5 {
+  margin-top: 10px;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.landing-heading > .button {
+  background-color: #387ed1;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border-radius: 3px;
+  margin-top: 25px;
+  padding: 10px 30px;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 100px;
+}
+
+.box {
+  border: 1px solid black;
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto 100px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #f6e5e5;
+}
+
+.input-box {
+  width: 50%;
+}
+
+.input-box > input {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.input-box > button {
+  background-color: #387ed1;
+  color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0) !important;
+  border-radius: 3px;
+  padding: 10px 30px;
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 500;
+  width: 100%;
+}
+
+.output {
+  font-size: 32px;
+  margin: 0 auto;
+  width: 50%;
+  padding: 10px 10px;
+  margin: 0 auto;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.results {
+  border: none;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+#answer {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px 5px;
+  background-color: #fff;
+}
+
+.investment-calc {
+  font-size: 2.5rem;
+  line-height: 1.25;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 5px;
+  color: #424242;
+}
+
+.input-box > label {
+  font-size: 22px;
+}
+
+footer {
+  text-align: center;
+  font-size: 22px;
+  background-color: #387ed1;
+  padding: 15px 0;
+  color: white;
+}
